@@ -8,12 +8,12 @@ class Employee < Person
     puts "am Software Developer"
   end
 end
-class Teacher < Person
+class Teacher < Employee
   end
 
 pname = Person.new
 emp = Employee.new
 teacher = Teacher.new
 puts pname.i_am
-puts teacher.i_am
+puts teacher.i_work_as
 puts emp.i_work_as
