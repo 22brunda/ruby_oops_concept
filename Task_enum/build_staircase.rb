@@ -1,6 +1,6 @@
-def print_staircase(num_rows)
-  for i in (1..num_rows)
-    puts '  ' * (num_rows-i) + '#' * i
+def staircase(n)
+  for i in (1..n)
+    puts '  ' * (n-i) + '#' * i
   end
 end
-print_staircase(6)
+puts staircase(6)

@@ -12,3 +12,5 @@ puts c.concat("srinivas")
 puts "#{a.sort}"
 puts "#{d.select{|num|num.even?}}"
 puts "#{d.select{|num|num.odd?}}"
+puts "#{a.map{|element| element}}"
+puts "#{a.collect{|x|x + "!"}}"

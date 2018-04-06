@@ -1,0 +1,2 @@
+var = ["brunda"]
+putc var
